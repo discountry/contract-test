@@ -1,5 +1,5 @@
 // scripts/deploy.js
-// goerli 0xd892aF720039FA556e5514225048DD6547F50Fa4
+// https://goerli.etherscan.io/address/0xd892af720039fa556e5514225048dd6547f50fa4#code
 async function main() {
   // We get the contract to deploy
   const Box = await ethers.getContractFactory("Box");
